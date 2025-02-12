@@ -1,7 +1,7 @@
+import profilePic from "@/assets/pic.png";
 import { Button } from "@/components/ui/button";
 import { Github, LinkedinIcon, Twitter } from "lucide-react";
-import profilePic from "@/assets/pic.png";
-import { Link } from "@radix-ui/react-navigation-menu";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -91,7 +91,9 @@ const Hero = () => {
             </div>
 
             <div className="text-center mt-8">
-              <Button variant="outline">View All Posts</Button>
+              <Link to={"/posts"}>
+                <Button variant="outline">View All Posts</Button>
+              </Link>
             </div>
           </div>
         </div>
