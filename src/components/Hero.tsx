@@ -60,7 +60,13 @@ const Hero = () => {
                   size="icon"
                   className="hover:text-purple-400"
                 >
-                  <Twitter className="h-5 w-5" />
+                  <a
+                    href="https://twitter.com/msbeigiai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Twitter className="h-5 w-5" />
+                  </a>
                 </Button>
                 <Button
                   variant="ghost"

@@ -1,6 +1,7 @@
 import AppRoutes from "./routes/AppRoutes";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./components/theme-provider";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <main className="w-full">
           <AppRoutes />
         </main>
+        <Footer />
       </div>
     </ThemeProvider>
   );
