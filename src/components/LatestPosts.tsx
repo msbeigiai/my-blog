@@ -1,11 +1,11 @@
 // src/components/LatestPosts.tsx
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Skeleton } from "@/components/ui/skeleton";
+import { Post } from "@/types/post";
+import { getAllPosts } from "@/utils/markdown";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { getAllPosts } from "@/utils/markdown";
-import { Post } from "@/types/post";
-import { Skeleton } from "@/components/ui/skeleton";
 
 const LatestPosts = () => {
   const [posts, setPosts] = useState<Post[]>([]);
