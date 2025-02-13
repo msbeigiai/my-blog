@@ -119,8 +119,20 @@ const Navbar = () => {
               />
             </div>
             <ModeToggle />
-            <Button variant="ghost" size="icon" className="hover:bg-accent">
-              <Github className="h-5 w-5" />
+
+            <Button
+              asChild
+              variant="ghost"
+              size="icon"
+              className="hover:bg-accent"
+            >
+              <a
+                href="https://github.com/msbeigiai"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-5 w-5" />
+              </a>
             </Button>
           </div>
 

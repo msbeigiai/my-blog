@@ -1,7 +1,7 @@
 import profilePic from "@/assets/pic.png";
 import { Button } from "@/components/ui/button";
 import { Github, LinkedinIcon, Twitter } from "lucide-react";
-import { Link } from "react-router";
+import LatestPosts from "./LatestPosts";
 
 const Hero = () => {
   return (
@@ -45,8 +45,15 @@ const Hero = () => {
                   variant="link"
                   size="icon"
                   className="hover:text-purple-400"
+                  asChild
                 >
-                  <Github className="h-5 w-5" />
+                  <a
+                    href="https://github.com/msbeigiai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="h-5 w-5" />
+                  </a>
                 </Button>
                 <Button
                   variant="ghost"
@@ -67,35 +74,7 @@ const Hero = () => {
           </div>
 
           {/* Latest posts preview */}
-          <div className="mt-12 space-y-6">
-            <h2 className="text-xl font-semibold mb-4">Latest Posts</h2>
-            <div className="grid gap-4">
-              {[1, 2].map((post) => (
-                <a
-                  key={post}
-                  href="#"
-                  className="block p-6 rounded-lg border bg-card hover:bg-accent/50 transition-colors"
-                >
-                  <div className="text-sm text-muted-foreground mb-2">
-                    Jan {post}, 2024
-                  </div>
-                  <h3 className="text-lg font-medium mb-2">
-                    Understanding React Server Components
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Exploring the future of React and how server components are
-                    changing the game...
-                  </p>
-                </a>
-              ))}
-            </div>
-
-            <div className="text-center mt-8">
-              <Link to={"/posts"}>
-                <Button variant="outline">View All Posts</Button>
-              </Link>
-            </div>
-          </div>
+          <LatestPosts />
         </div>
       </div>
 
