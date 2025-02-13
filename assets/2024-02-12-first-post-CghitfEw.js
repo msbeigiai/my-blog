@@ -1,4 +1,4 @@
----
+const n=`---
 title: "Advanced Markdown Example"
 date: "2023-10-01"
 excerpt: "This is an example of advanced Markdown rendering."
@@ -12,13 +12,13 @@ This is an example of rendering **Markdown** content with advanced features.
 
 ## Code Block Example
 
-```javascript
+\`\`\`javascript
 function greet(name) {
-  console.log(`Hello, ${name}!`);
+  console.log(\`Hello, \${name}!\`);
 }
 
 greet("World");
-```
+\`\`\`
 
 ---
 
@@ -26,6 +26,7 @@ greet("World");
 
 Ensure you have the following dependencies installed:
 
-```bash
+\`\`\`bash
 npm install react-markdown remark-gfm react-syntax-highlighter
-```
+\`\`\`
+`;export{n as default};
