@@ -2,7 +2,7 @@ const n=`---
 title: "Advanced Markdown Example"
 date: "2023-10-01"
 excerpt: "This is an example of advanced Markdown rendering."
-coverImage: "/images/example-cover.jpg"
+coverImage: "./public/images/boot2-initilizr.png"
 tags:
   - Markdown
   - React
