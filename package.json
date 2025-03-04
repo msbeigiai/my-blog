@@ -11,7 +11,9 @@
     "vercel-build": "rm -rf node_modules package-lock.json && bun install && bun run build"
   },
   "dependencies": {
+    "@hookform/resolvers": "^4.1.3",
     "@radix-ui/react-dropdown-menu": "^2.1.6",
+    "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-navigation-menu": "^1.2.5",
     "@radix-ui/react-separator": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.2",
@@ -24,6 +26,7 @@
     "markdown-it": "^14.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
     "react-markdown": "^9.0.3",
     "react-router": "^7.1.5",
     "react-router-dom": "^7.1.5",
@@ -32,7 +35,8 @@
     "remark-gfm": "^4.0.1",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
-    "vite-plugin-glob": "^0.3.2"
+    "vite-plugin-glob": "^0.3.2",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

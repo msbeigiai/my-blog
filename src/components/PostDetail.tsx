@@ -51,7 +51,7 @@ const PostDetail = () => {
   }
 
   return (
-    <div className="pt-16">
+    <div className="pt-24">
       <article className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Cover Image */}

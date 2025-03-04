@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <NavigationMenu>
               <NavigationMenuList>
-                <NavigationMenuItem>
+                {/* <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-foreground/70 hover:text-foreground">
                     Articles
                   </NavigationMenuTrigger>
@@ -67,8 +67,8 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </NavigationMenuContent>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
+                </NavigationMenuItem> */}
+                {/* <NavigationMenuItem>
                   <NavigationMenuTrigger className="text-foreground/70 hover:text-foreground">
                     Categories
                   </NavigationMenuTrigger>
@@ -94,7 +94,7 @@ const Navbar = () => {
                       </li>
                     </ul>
                   </NavigationMenuContent>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
                 <NavigationMenuItem>
                   <Link to={"/about-me"}>
                     <Button
@@ -105,6 +105,11 @@ const Navbar = () => {
                     </Button>
                   </Link>
                 </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Link to={"/contact-me"}>
+                <Button variant="ghost" className="text-foreground/70 hover:text-foreground cursor-pointer">Contact Me</Button>
+                </Link>
+              </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </div>
@@ -159,7 +164,7 @@ const Navbar = () => {
         <div className="md:hidden py-4">
           <div className="container mx-auto px-4">
             <div className="space-y-4">
-              <a
+              {/* <a
                 href="#"
                 className="block px-4 py-2 text-sm hover:bg-accent rounded-md"
               >
@@ -170,7 +175,7 @@ const Navbar = () => {
                 className="block px-4 py-2 text-sm hover:bg-accent rounded-md"
               >
                 Categories
-              </a>
+              </a> */}
               <a
                 href="#"
                 className="block px-4 py-2 text-sm hover:bg-accent rounded-md"

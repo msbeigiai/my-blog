@@ -67,7 +67,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="min-h-[calc(100vh-64px)] pt-16 pb-16">
+    <div className="min-h-[calc(100vh-64px)] pt-24 pb-16">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="max-w-4xl mx-auto mb-16">
