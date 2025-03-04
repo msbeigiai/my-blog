@@ -2,16 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
+  NavigationMenuList
 } from "@/components/ui/navigation-menu";
 import { Github, Menu, Search, X } from "lucide-react";
 import { useState } from "react";
-import { ModeToggle } from "./mode-toggle";
 import { Link } from "react-router";
+import { ModeToggle } from "./mode-toggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
