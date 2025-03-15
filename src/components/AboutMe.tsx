@@ -86,7 +86,7 @@ const AboutMe = () => {
                 <span>Finland</span>
               </div>
               <p className="text-lg text-muted-foreground mb-6">
-                Innovative Software Engineer with 4+ years of experience in
+                Innovative Software Engineer with +5 years of experience in
                 designing and developing scalable applications. Specialized in
                 Java, Spring Boot, Scala, and React with expertise in real-time
                 data pipelines and DevOps.
@@ -142,7 +142,7 @@ const AboutMe = () => {
           </section>
 
           {/* Experience Section */}
-          <section>
+          {/* <section>
             <h2 className="text-2xl font-semibold mb-6">
               Professional Experience
             </h2>
@@ -169,7 +169,7 @@ const AboutMe = () => {
                 </Card>
               ))}
             </div>
-          </section>
+          </section> */}
 
           {/* Languages Section */}
           <section className="mt-16">

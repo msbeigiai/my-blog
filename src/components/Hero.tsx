@@ -32,11 +32,12 @@ const Hero = () => {
                   Mohsen Sadeghbeigi
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground mb-6">
-                Full stack developer passionate about Java, Scala, Kafka, C++,
-                React, Redux, UI/UX, and creating delightful web experiences. I
-                write about web development, design patterns, and my journey in
-                tech.
+              <p className="text-xl text-muted-foreground mb-6 leading-7">
+                Software Engineer with 5+ years of experience, rocking Java,
+                Scala, C++, and Apache Kafka. I build scalable apps, boost
+                backend performance, and tame 25+ TB of daily data streams.
+                Skilled in microservices, cloud infra, and DevOps, I’m all about
+                clean code, smart design, and helping teammates shine.
               </p>
 
               {/* Social links */}
@@ -73,7 +74,13 @@ const Hero = () => {
                   size="icon"
                   className="hover:text-purple-400"
                 >
-                  <LinkedinIcon className="h-5 w-5" />
+                  <a
+                    href="http://linkedin.com/in/mohsen-sadeghbeigi"
+                    target="_blank"
+                    rel="noopener norefrrer"
+                  >
+                    <LinkedinIcon className="h-5 w-5" />
+                  </a>
                 </Button>
               </div>
             </div>
