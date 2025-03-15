@@ -33,9 +33,9 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-7">
-                Software Engineer with 5+ years of experience, rocking Java,
+                Software Engineer with +5 years of experience, rocking Java,
                 Scala, C++, and Apache Kafka. I build scalable apps, boost
-                backend performance, and tame 25+ TB of daily data streams.
+                backend performance, and tame +25 TB of daily data streams.
                 Skilled in microservices, cloud infra, and DevOps, I’m all about
                 clean code, smart design, and helping teammates shine.
               </p>
